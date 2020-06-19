@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AudioEngine"
-  spec.version      = "6.4.4"
+  spec.version      = "6.5.0"
   spec.summary      = "The AudioEngine SDK for iOS."
   spec.homepage     = "https://developer.audioengine.io/sdk/ios"
 
@@ -23,8 +23,5 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "AudioEngine.xcframework/ios-armv7_armv7s_arm64/AudioEngine.framework/Headers/*.h"
   spec.source_files = "AudioEngine.xcframework/ios-armv7_armv7s_arm64/AudioEngine.framework/Headers/*.h"
   spec.vendored_frameworks = "AudioEngine.xcframework"
-
-  #spec.dependency "RxGRDB", "~> 0.17"
-  #spec.dependency "RxSwift", "~> 5.0"
 
 end

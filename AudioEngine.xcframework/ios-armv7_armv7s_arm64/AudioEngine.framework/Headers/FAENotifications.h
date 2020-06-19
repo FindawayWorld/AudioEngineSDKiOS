@@ -50,10 +50,19 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEFailedListenEventUserInfoKey;
 FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackChapterPausedUserInfoKey;
 
 /**
- The key for the playback started listen event that tells if the events are being streamed or not in the notification's user info
+ The key for the playback started listen event that indicates if the events are being streamed or not in the notification's user info
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackStreamingUserInfoKey;
 
+/**
+The key for the playback progress update event that indicates the current playback offset in the notification's user info
+*/
+FOUNDATION_EXPORT NSString* _Nonnull const FAECurrentOfsetUserInfoKey;
+
+/**
+The key for the playback notification  that indicates the current playback rate in the notification's user info
+*/
+FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackCurrentRateUserInfoKey;
 
 /** @name AudioEngine Notifications
  */
@@ -288,6 +297,21 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackChapterLoadedNotification;
 FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackStreamingRequestStartedNotification;
 
 /**
+ Posted when the current offset of the `PlaybackEngine` changes.
+ 
+ @note This will be posted asyncronously to a call to any method.
+ 
+ Notification userInfo Dictionary:
+ 
+     {
+        FAEPlaybackCurrentOffsetUserInfoKey:<NSNumber>
+     }
+ 
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackProgressUpdateNotification;
+
+
+/**
  Posted when `PlaybackEngine` begins playback of a chapter that has been previously loaded (See `FAEPlaybackChapterLoadedNotification`). Posted as a result of a call to `[PlaybackEngine playForAudiobookIDpartNumber:chapterNumber:offset:accountID:checkoutID:]`, `[PlaybackEngine nextChapter]`, or `[PlaybackEngine perviousChapter]`. If a book has more than one chapter, multiple `FAEPlaybackChapterStartedNotification` will be posted.
  
  @note This will be posted synchronously during a call to the `[PlaybackEngine playForAudiobookIDpartNumber:chapterNumber:offset:accountID:checkoutID:]` method for the first chapter, but asyncronously to any other chapters or methods.
@@ -379,6 +403,16 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackBufferingEndNotification;
     }
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackChapterOffsetCompletedNotification;
+
+/**
+ Posted when `PlaybackEngine` completes setting the playback rate.  Will be posted as a result of a call to `[PlaybackEngine setCurrentRate]` after operation completion.
+ 
+ Notification userInfo Dictionary:
+    {
+        FAEPlaybackCurrentRateUserInfoKey:<NSNumber>
+    }
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackRateCompletedNotification;
 
 /**
  Posted when `PlaybackEngine` pauses audio playback for any reason. Will be posted as a result of a call to `[PlaybackEngine pause]`, or an interruption caused by another app playing audio, or the current audio route becoming unavailable (headphones being unplugged).
