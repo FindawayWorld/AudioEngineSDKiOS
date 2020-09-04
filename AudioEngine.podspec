@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AudioEngine"
-  spec.version      = "6.5.0"
+  spec.version      = "6.5.1"
   spec.summary      = "The AudioEngine SDK for iOS."
   spec.homepage     = "https://developer.audioengine.io/sdk/ios"
 

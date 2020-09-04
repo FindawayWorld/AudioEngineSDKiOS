@@ -241,6 +241,7 @@ typedef NS_ENUM(NSUInteger, FAEPlaybackPauseReason)
  */
 @property NSUInteger maxStallTime;
 
+
 /**
  The possible error codes that can be posted along with `FAEPlaybackChapterFailedNotification`
  */
