@@ -57,7 +57,7 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackStreamingUserInfoKey;
 /**
 The key for the playback progress update event that indicates the current playback offset in the notification's user info
 */
-FOUNDATION_EXPORT NSString* _Nonnull const FAECurrentOfsetUserInfoKey;
+FOUNDATION_EXPORT NSString* _Nonnull const FAECurrentOffsetUserInfoKey;
 
 /**
 The key for the playback notification  that indicates the current playback rate in the notification's user info
@@ -304,7 +304,7 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEPlaybackStreamingRequestStartedNot
  Notification userInfo Dictionary:
  
      {
-        FAEPlaybackCurrentOffsetUserInfoKey:<NSNumber>
+        FAECurrentOffsetUserInfoKey:<NSNumber>
      }
  
  */

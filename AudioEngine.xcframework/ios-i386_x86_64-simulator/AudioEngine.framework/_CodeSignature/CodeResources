@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/AudioEngine-Swift.h</key>
 		<data>
-		zIxFu8mgfFZgsUzjiNh+pZ5uQbE=
+		Atl0Kbb9vm1mmk5RZx9SAbACjwE=
 		</data>
 		<key>Headers/AudioEngine.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/FAEDownloadRequest.h</key>
 		<data>
-		nPjObCkDMEc7taHUmdWxdpZy1Ig=
+		e3KD37AuRkFpqBkATfM1oLL/s0k=
 		</data>
 		<key>Headers/FAELogEngine.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/FAENotifications.h</key>
 		<data>
-		3d1uAxiDHkLWeFflDpM1nSbQwSM=
+		af59gEubq2XrFKfTpXYM6Tlx+Gs=
 		</data>
 		<key>Headers/FAEPersistenceEngine.h</key>
 		<data>
@@ -102,71 +102,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y7kqQY6kcLOmWV5dGbKiDgIdgcI=
+		cVLlzQbRipu7bXOYhCqh0mSHkaQ=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		B382YnpJIBUTPRNqvA8StW5BAiw=
+		Oea+6j1aoCATqu+WmvbQ/TwtvHs=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		B382YnpJIBUTPRNqvA8StW5BAiw=
+		Oea+6j1aoCATqu+WmvbQ/TwtvHs=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FbI9WkCVXreWfJ2nBh8RUY3ZM3I=
+		BhAxWvP/FR0ds574r/ZyicjRNHQ=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		FbI9WkCVXreWfJ2nBh8RUY3ZM3I=
+		BhAxWvP/FR0ds574r/ZyicjRNHQ=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		e9wqggQTXaKyEuH7cY3fdfUgVxY=
+		URDiGU2QnO4xg7yKe9IffBKsHuI=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YcFcmn55DuBdtH9VslKVLOwM+QU=
+		li6wRaQ2GbsJ4mKcFqpPRO+E7y8=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M/KG0TIE8hFHwf45YeA4Xqkr46Q=
+		y6d27hzsa5kb5iSiYqfTs/9z568=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftdoc</key>
 		<data>
-		e9wqggQTXaKyEuH7cY3fdfUgVxY=
+		URDiGU2QnO4xg7yKe9IffBKsHuI=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftinterface</key>
 		<data>
-		YcFcmn55DuBdtH9VslKVLOwM+QU=
+		li6wRaQ2GbsJ4mKcFqpPRO+E7y8=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftmodule</key>
 		<data>
-		M/KG0TIE8hFHwf45YeA4Xqkr46Q=
+		y6d27hzsa5kb5iSiYqfTs/9z568=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZR++LZqlLMZm4BJUtgLfcI0w0JY=
+		g0h1Jd3LX9ZzWvQ/GhvPszs+bdk=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VSYOHkQ/tNjXQlbGURTEks7RZcw=
+		7pMV8mn9pGXzTe5eD5prk5jl0mc=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5HC8ZqPL1w8AqZXkDeyuQJantrQ=
+		+TGN48+ma7uRzH2L+C9pTn2w1Cc=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ZR++LZqlLMZm4BJUtgLfcI0w0JY=
+		g0h1Jd3LX9ZzWvQ/GhvPszs+bdk=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		VSYOHkQ/tNjXQlbGURTEks7RZcw=
+		7pMV8mn9pGXzTe5eD5prk5jl0mc=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		5HC8ZqPL1w8AqZXkDeyuQJantrQ=
+		+TGN48+ma7uRzH2L+C9pTn2w1Cc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zIxFu8mgfFZgsUzjiNh+pZ5uQbE=
+			Atl0Kbb9vm1mmk5RZx9SAbACjwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			n5fzqqsTET3wr3XFPa7yU7vh/o48EWlh3xD3uXmQgkM=
+			MFgSPcoyx/T4FIxapAsuiRrqbV45DqK0QPLjNNlSj8Y=
 			</data>
 		</dict>
 		<key>Headers/AudioEngine.h</key>
@@ -392,11 +392,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nPjObCkDMEc7taHUmdWxdpZy1Ig=
+			e3KD37AuRkFpqBkATfM1oLL/s0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eswrno+hUg7wxOffYolQJOKpSo0/w/2Wnfqu/aA2zQ0=
+			P8RP4zQa46GTIi3+fWd11HlNGKogKbro9ohy16uj0Xw=
 			</data>
 		</dict>
 		<key>Headers/FAELogEngine.h</key>
@@ -414,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3d1uAxiDHkLWeFflDpM1nSbQwSM=
+			af59gEubq2XrFKfTpXYM6Tlx+Gs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sNACeEwclKtIt4NCDTAEwAoB4/boIog9unfc4vbO3C8=
+			xNv78SOG/h342WEiGuy/MP7d6pZIV5Ut8UIas8eGnIE=
 			</data>
 		</dict>
 		<key>Headers/FAEPersistenceEngine.h</key>
@@ -447,176 +447,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B382YnpJIBUTPRNqvA8StW5BAiw=
+			Oea+6j1aoCATqu+WmvbQ/TwtvHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			YRL8Uu3Qaa7PZttBpjd/ymG3xYWU3E+IryxRsgmbR6g=
+			gwQYxFL4nxQsKPC2aidNHg9r546dMNK3rk+/uOpihgs=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B382YnpJIBUTPRNqvA8StW5BAiw=
+			Oea+6j1aoCATqu+WmvbQ/TwtvHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			YRL8Uu3Qaa7PZttBpjd/ymG3xYWU3E+IryxRsgmbR6g=
+			gwQYxFL4nxQsKPC2aidNHg9r546dMNK3rk+/uOpihgs=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FbI9WkCVXreWfJ2nBh8RUY3ZM3I=
+			BhAxWvP/FR0ds574r/ZyicjRNHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			8XZEsoAQg13Ag8ca/7pdDS0rpBO+Ia20nraPSgV4pXI=
+			6tvBAjdVdNNOEQpOPUel1uKtnVuTCegM7D4fwvrDw4M=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FbI9WkCVXreWfJ2nBh8RUY3ZM3I=
+			BhAxWvP/FR0ds574r/ZyicjRNHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			8XZEsoAQg13Ag8ca/7pdDS0rpBO+Ia20nraPSgV4pXI=
+			6tvBAjdVdNNOEQpOPUel1uKtnVuTCegM7D4fwvrDw4M=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e9wqggQTXaKyEuH7cY3fdfUgVxY=
+			URDiGU2QnO4xg7yKe9IffBKsHuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DX4FI43qlqCiyQZ2J5ld+I9PQOngJj92Ev4mQZUVgU=
+			d/OI9lcnvDcSzJxt4Z4jhXfpK6pS0OhvJkO16stEPE0=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YcFcmn55DuBdtH9VslKVLOwM+QU=
+			li6wRaQ2GbsJ4mKcFqpPRO+E7y8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tFNN2WNRTt22LO9tUf/bHLevefhhwrEXsMqJqk8YitM=
+			19kvC7mR+zOnsC4ZPYkk4DBAVTohbNGBK3guLLI6xjQ=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M/KG0TIE8hFHwf45YeA4Xqkr46Q=
+			y6d27hzsa5kb5iSiYqfTs/9z568=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZC/jTjCQ6DC6wdmgDTlRw2D15RRAIjqJo7S3CzRuLM=
+			cMrniZpGWyobG5Wfi1bq5hZQAjZiZqidHj0Z3R9BYzI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e9wqggQTXaKyEuH7cY3fdfUgVxY=
+			URDiGU2QnO4xg7yKe9IffBKsHuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DX4FI43qlqCiyQZ2J5ld+I9PQOngJj92Ev4mQZUVgU=
+			d/OI9lcnvDcSzJxt4Z4jhXfpK6pS0OhvJkO16stEPE0=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YcFcmn55DuBdtH9VslKVLOwM+QU=
+			li6wRaQ2GbsJ4mKcFqpPRO+E7y8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tFNN2WNRTt22LO9tUf/bHLevefhhwrEXsMqJqk8YitM=
+			19kvC7mR+zOnsC4ZPYkk4DBAVTohbNGBK3guLLI6xjQ=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M/KG0TIE8hFHwf45YeA4Xqkr46Q=
+			y6d27hzsa5kb5iSiYqfTs/9z568=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZC/jTjCQ6DC6wdmgDTlRw2D15RRAIjqJo7S3CzRuLM=
+			cMrniZpGWyobG5Wfi1bq5hZQAjZiZqidHj0Z3R9BYzI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZR++LZqlLMZm4BJUtgLfcI0w0JY=
+			g0h1Jd3LX9ZzWvQ/GhvPszs+bdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			nm0WVjIwYo7aA7zW5UtoH5cWNY8RuBkWW85g8W5h+Mg=
+			ZpSQJVLdAfCESN/g0/EamELfoCcrjadN7TP/UPQpi4Q=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSYOHkQ/tNjXQlbGURTEks7RZcw=
+			7pMV8mn9pGXzTe5eD5prk5jl0mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AziFJbGHsc7KLIij6QH3ZoO0zZY8rcyCE/QWfuygI+o=
+			/MfqJ6GYN8qfZ1yb6h9rq7SuRCQF3lK4MdtLQNd7P5g=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5HC8ZqPL1w8AqZXkDeyuQJantrQ=
+			+TGN48+ma7uRzH2L+C9pTn2w1Cc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jDk2jB9lDvpIwa9r14vNPqvY6pET+JupUiDFD1ZR1tM=
+			7MH++NLdGnnRzzYpwUjaplVS07uSN4bDP4LyUU3V0lw=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZR++LZqlLMZm4BJUtgLfcI0w0JY=
+			g0h1Jd3LX9ZzWvQ/GhvPszs+bdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			nm0WVjIwYo7aA7zW5UtoH5cWNY8RuBkWW85g8W5h+Mg=
+			ZpSQJVLdAfCESN/g0/EamELfoCcrjadN7TP/UPQpi4Q=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSYOHkQ/tNjXQlbGURTEks7RZcw=
+			7pMV8mn9pGXzTe5eD5prk5jl0mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AziFJbGHsc7KLIij6QH3ZoO0zZY8rcyCE/QWfuygI+o=
+			/MfqJ6GYN8qfZ1yb6h9rq7SuRCQF3lK4MdtLQNd7P5g=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5HC8ZqPL1w8AqZXkDeyuQJantrQ=
+			+TGN48+ma7uRzH2L+C9pTn2w1Cc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jDk2jB9lDvpIwa9r14vNPqvY6pET+JupUiDFD1ZR1tM=
+			7MH++NLdGnnRzzYpwUjaplVS07uSN4bDP4LyUU3V0lw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

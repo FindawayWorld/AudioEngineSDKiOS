@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSUInteger const FAEDownloadRequestDefaultPart;
-extern NSUInteger const FAEDownloadRequestDefaultChapter;
-
 /**
  * This describes the type of download to be performed.
  */
