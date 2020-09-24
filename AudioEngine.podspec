@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Alex Glenn" => "aglenn@findaway.com" }
 
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "8.0"
   spec.swift_versions = ["5.1"]
 
   spec.source       = { :git => "https://github.com/FindawayWorld/AudioEngineSDKiOS.git", :tag => "#{spec.version}" } 
@@ -24,5 +24,10 @@ Pod::Spec.new do |spec|
   spec.source_files = "AudioEngine.xcframework/ios-arm64_armv7_armv7s/AudioEngine.framework/Headers/*.h"
   spec.vendored_frameworks = "AudioEngine.xcframework"
   spec.preserve_path = "AudioEngine-iphoneos.framework.dSYM"
+
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
