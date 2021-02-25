@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target armv7s-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AudioEngine
 @_exported import AudioEngine
 import AudioEngine_Private
@@ -60,12 +60,13 @@ import Swift
   @objc public class func metadataDatabasePath() -> Foundation.URL
   @objc public class func persistenceEngineDatabasePath() -> Foundation.URL
   @objc public class func createSupportDirectory() -> Foundation.URL
-  @objc public class func createAudiobookDirectory(audiobookID: Swift.String) -> Foundation.URL
+  @objc public class func createAudiobookDirectory(audiobookID: Swift.String, createError: Swift.UnsafeMutablePointer<Foundation.NSError>) -> Foundation.URL?
   @objc public class func filename(description: AudioEngine.FAEChapterDescription) -> Swift.String
   @objc public class func chapterDescription(filename: Swift.String) -> AudioEngine.FAEChapterDescription?
   @objc public class func filePath(description: AudioEngine.FAEChapterDescription) -> Foundation.URL
+  @objc public class func fileExists(description: AudioEngine.FAEChapterDescription) -> Swift.Bool
   @objc public class func sizeOnDisk(description: AudioEngine.FAEChapterDescription) -> Swift.UInt64
-  @objc public class func deleteFile(description: AudioEngine.FAEChapterDescription)
+  @objc public class func deleteFile(description: AudioEngine.FAEChapterDescription, notify: Swift.Bool)
   @objc public class func deleteAllFiles(audiobookID: Swift.String)
   @objc deinit
   @objc override dynamic public init()

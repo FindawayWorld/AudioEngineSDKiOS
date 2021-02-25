@@ -306,12 +306,16 @@ typedef NS_ENUM(NSUInteger, FAEDownloadFailureCode)
     FAEDownloadFailureCodeDownloadAudioBadResponse=15000,
     /** Moving the downloaded file a second time (after deleting) failed. */
     FAEDownloadFailureCodeDownloadAudioMoveFailure=15001,
+    /** The downloaded file was not the size that it was reported to be */
+    FAEDownloadFailureCodeFileIncomplete=15002,
     /** The chapter download in progress was cancelled. */
     FAEDownloadFailureCodeDownloadCancelled=16000,
     /** The JSON from the server failed to serialize. */
     FAEDownloadFailureCodeBadJSON=17000,
     /** The system reported that there was no storage space left on the device */
     FAEDownloadFailureCodeNoSpace=18000,
+    /** A network security error occurred  */
+    FAEDownloadFailureCodeNetworkSecurityError=19000,
     /** The download failed for an unknown reason. An underlying system error was logged and returned as well. */
     FAEDownloadFailureCodeUnknown=10000,
     /** The download failed for an unknown reason, unknown server response received */
@@ -418,6 +422,10 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureDownloadAudioBadRes
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureDownloadAudioMoveFailureDescription;
 /**
+ Download Failure - audio file is the wrong size
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureFileIncompleteDescription;
+/**
  Download Failure - download cancelled
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureDownloadCancelledDescription;
@@ -448,6 +456,11 @@ FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureUnknownServerRespon
  Download Failure - The download failed because the filesystem is full
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureNoSpaceDescription;
+
+/**
+ Download Failure - A network security error occurred
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEDownloadFailureNetworkSecurityErrorDescription;
 
 #pragma mark -
 #pragma mark Deprecated Methods

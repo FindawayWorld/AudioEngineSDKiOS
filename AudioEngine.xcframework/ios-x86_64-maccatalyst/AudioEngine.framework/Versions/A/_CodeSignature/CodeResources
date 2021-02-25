@@ -46,7 +46,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		J64dlaVBdo43cvYa3BW1ZsHv+9M=
+		aVBGUpJRIMaRkWUppgDh3gDKrWI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ad4m9Y6DmHd4eLoT+dSfX7CwOZeuZndqBQZt73yRoY=
+			GdcvIS/S7/tZ8pqkZ4NmaZM8f34S3f6VjMv2nBmmHMI=
 			</data>
 		</dict>
 		<key>Headers/AudioEngine.h</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			syY6yAGvZYz6j7haWUyz/GzNfogBIvcsrohWdEs1IvI=
+			mDMqcQAa+CbP+mAj5J636YzZoz7O8q1l6kH4+cvSAEc=
 			</data>
 		</dict>
 		<key>Headers/FAEDownloadRequest.h</key>
@@ -132,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xNv78SOG/h342WEiGuy/MP7d6pZIV5Ut8UIas8eGnIE=
+			bfQREsApkhtIbWx/DsFEzqQl/dtfspdRNC/wESOTbF0=
 			</data>
 		</dict>
 		<key>Headers/FAEPersistenceEngine.h</key>
@@ -153,56 +153,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CpfYbzURXJHVtcqDYCF0TXgbZbK8DI1DkyZUdRgXqEI=
+			qguGaCUKufj1iq1pMPb29TyTtfPDq8yE1y7OHoZwsqc=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CpfYbzURXJHVtcqDYCF0TXgbZbK8DI1DkyZUdRgXqEI=
+			qguGaCUKufj1iq1pMPb29TyTtfPDq8yE1y7OHoZwsqc=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2diFWN4ygPid9u547dzcx2CXA8W7Dcq3nhW+ClQ5I4Y=
+			VBvqrHyegUgesfbKZcza2ulkx/Y/EM/j4jxTjJQ+AjY=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			maQ+93B/g+WkJCCRqnG7AZXwIEHZpHUrl8hGUMLbuW4=
+			wiEpdHMWXaXSzOa6dEokCQwcqpJCl+AbfmDnw5/t7rw=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JcMqYI8Uh/6/PPS85yFqPF8VCTmnIs81Jrmh1lN5I9g=
+			FUmW7rZfBk4qeVldW90leGbcMpH4SddyyXqzFEAGUrU=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2diFWN4ygPid9u547dzcx2CXA8W7Dcq3nhW+ClQ5I4Y=
+			VBvqrHyegUgesfbKZcza2ulkx/Y/EM/j4jxTjJQ+AjY=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			maQ+93B/g+WkJCCRqnG7AZXwIEHZpHUrl8hGUMLbuW4=
+			wiEpdHMWXaXSzOa6dEokCQwcqpJCl+AbfmDnw5/t7rw=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JcMqYI8Uh/6/PPS85yFqPF8VCTmnIs81Jrmh1lN5I9g=
+			FUmW7rZfBk4qeVldW90leGbcMpH4SddyyXqzFEAGUrU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -293,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0eO+X0zhTbztQhXceNGJu1UiAJF539uRn1hJR6MNRyk=
+			iobxvPpNIQ2+MpBH9ibvNnOuFbKPrdrVMbz/z5AIpps=
 			</data>
 		</dict>
 	</dict>

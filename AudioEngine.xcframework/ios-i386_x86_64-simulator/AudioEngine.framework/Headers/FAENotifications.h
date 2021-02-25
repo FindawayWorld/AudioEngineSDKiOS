@@ -252,7 +252,7 @@ Notification userInfo Dictionary:
 FOUNDATION_EXPORT NSString* _Nonnull const FAEChapterDownloadFailedNotification;
 
 /**
- Posted when `DownloadEngine` has finished deleting the audio data for a chapter of an audiobook as a result of a call to `[DownloadEngine deleteForAudiobookID:partNumber:chapterNumber:]` 
+ Posted when `DownloadEngine` has finished deleting the audio data for a chapter of an audiobook as a result of a call to `[DownloadEngine deleteForAudiobookID:partNumber:chapterNumber:]`
  
  @note this will be posted asyncronously of a call to this method.
 
@@ -264,6 +264,31 @@ Notification userInfo Dictionary:
 
  */
 FOUNDATION_EXPORT NSString* _Nonnull const FAEChapterDeleteSuccessNotification;
+
+/**
+ Posted when AudioEngine has detected a chapter that needs to be deleted during an audit of the filesystem. This is most likely due to a missing file, or a file of incorrect size. May be followed by FAEAuditAudiobookStatusUpdateddNotification `
+
+Notification userInfo Dictionary:
+
+    {
+        FAEChapterDescriptionUserInfoKey:<ChapterDescription>
+    }
+
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEAuditChapterDeletedNotification;
+
+/**
+ Posted when AudioEngine has changed the status of an audiobook due to an audit of the filesystem. This could be because of of the startup audit or filsystem checks that are preformed before playback. `
+
+Notification userInfo Dictionary:
+
+    {
+        FAEAudiobookIDUserInfoKey:<NSString>
+    }
+
+ */
+FOUNDATION_EXPORT NSString* _Nonnull const FAEAuditAudiobookStatusUpdatedNotification;
+
 
 /** @name PlaybackEngine Notifications
  */
