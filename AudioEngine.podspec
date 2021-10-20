@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AudioEngine"
-  spec.version      = "6.5.5"
+  spec.version      = "6.5.6-preview"
   spec.summary      = "The AudioEngine SDK for iOS."
   spec.homepage     = "https://developer.audioengine.io/sdk/ios"
 
@@ -25,9 +25,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "AudioEngine.xcframework"
   spec.preserve_path = "AudioEngine-iphoneos.framework.dSYM"
 
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end

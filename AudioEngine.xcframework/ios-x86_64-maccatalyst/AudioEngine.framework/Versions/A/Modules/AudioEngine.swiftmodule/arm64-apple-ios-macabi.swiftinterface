@@ -1,0 +1,308 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AudioEngine
+@_exported import AudioEngine
+import AudioEngine_Private
+import Foundation
+import SQLite3
+import Swift
+import UIKit
+import os.log
+import os
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FAEDownloadResumeTask : AudioEngine.FAEDownloadTask {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FAEAudioStreamingTask : AudioEngine.FAEAudioTask {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class FAEPlaylist : ObjectiveC.NSObject {
+  @objc final public let audiobookId: Swift.String
+  @objc final public let playlistToken: Swift.String
+  @objc final public let expires: Foundation.Date
+  @objc final public let playlist: [AudioEngine.FAEPlaylistItem]
+  @objc(playlistItemForChapterDescription:) public func playlistItem(chapterDescription: AudioEngine.FAEChapterDescription) -> AudioEngine.FAEPlaylistItem?
+  @objc(serializePlaylistFromDictionary:forAudiobookID:) public class func decodePlaylist(data: Foundation.Data, audiobookId: Swift.String) -> AudioEngine.FAEPlaylist?
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers @objc public class FAEPlaylistItem : ObjectiveC.NSObject, AudioEngine.ChapterMetadata {
+  @objc final public let audiobookId: Swift.String
+  @objc final public let part: Swift.UInt
+  @objc final public let chapter: Swift.UInt
+  @objc final public let chapterName: Swift.String
+  @objc final public let partName: Swift.String?
+  @objc final public let totalSize: Swift.UInt64
+  @objc final public let bitrate: Swift.UInt
+  @objc final public let sampleRate: Swift.UInt
+  @objc final public let duration: Swift.UInt64
+  @objc final public let format: Swift.String?
+  @objc final public let url: Foundation.URL
+  @objc final public let key: Swift.String?
+  @objc public var chapterDescription: AudioEngine.FAEChapterDescription? {
+    @objc get
+  }
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class FAEProgress : ObjectiveC.NSObject {
+  @objc public var fractionCompleted: Swift.Double {
+    get
+  }
+  @objc public init(completedWork: Swift.UInt64, totalWork: Swift.UInt64)
+  @objc public func assignChild(_ child: AudioEngine.FAEProgress, work assignedWork: Swift.UInt64)
+  @objc(setCompletedUnitCount:) public func setCompletedWork(_ work: Swift.UInt64)
+  @objc(setTotalUnitCount:) public func setTotalWork(_ work: Swift.UInt64)
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class FAEPlaylistManager : ObjectiveC.NSObject {
+  @objc public static let shared: AudioEngine.FAEPlaylistManager
+  @objc public func addPlaylist(_ playlist: AudioEngine.FAEPlaylist, identifier: Swift.String, encrypted: Swift.Bool)
+  @objc public func removePlaylist(identifier: Swift.String, encrypted: Swift.Bool)
+  @objc public func getPlaylist(identifier: Swift.String, encrypted: Swift.Bool, expiredPermitted: Swift.Bool) -> AudioEngine.FAEPlaylist?
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class TaskSynchronizer : ObjectiveC.NSObject {
+  @objc public func fetchAudiobookMetadata(audiobookID: Swift.String, sessionKey: Swift.String, completion: @escaping (AudioEngine.AudiobookWithChapters?, Foundation.NSError?) -> ())
+  @objc public func fetchPlaylistMetadata(audiobookID: Swift.String, licenseID: Swift.String, sessionKey: Swift.String, encrypted: Swift.Bool, completion: @escaping (AudioEngine.FAEPlaylist?, Foundation.NSError?) -> ())
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class FAEChapterDescription : ObjectiveC.NSObject {
+  @objc public var audiobookID: Swift.String
+  @objc public var partNumber: Swift.UInt
+  @objc public var chapterNumber: Swift.UInt
+  @objc public init(audiobookID: Swift.String, partNumber: Swift.UInt, chapterNumber: Swift.UInt)
+  @objc public init(string: Swift.String)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc public func toString() -> Swift.String
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FAEProgressManager : ObjectiveC.NSObject {
+  @objc public static let sharedManager: AudioEngine.FAEProgressManager
+  @objc(progressForAudiobookID:) public func progress(audiobookId: Swift.String) -> AudioEngine.FAEProgress?
+  @objc(progressForAudiobookID:partNumber:chapterNumber:) public func progress(audiobookId: Swift.String, part: Swift.UInt, chapter: Swift.UInt) -> AudioEngine.FAEProgress?
+  @objc public func createProgress(audiobookId: Swift.String) -> AudioEngine.FAEProgress?
+  @objc(removeProgressForAudiobookID:) public func removeProgress(audiobookId: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DatabaseManager : ObjectiveC.NSObject {
+  @objc public static let shared: AudioEngine.DatabaseManager
+  @objc public func insert(audiobook: AudioEngine.FAEAudiobookStatus)
+  @objc public func insert(chapters: [AudioEngine.FAEChapterStatus])
+  @objc public func insert(request: AudioEngine.FAEDownloadRequest)
+  @objc public func fetchAllAudiobookIds() -> [Swift.String]
+  @objc public func fetchAudiobook(audiobookId: Swift.String) -> AudioEngine.FAEAudiobookStatus?
+  @objc public func fetchAudiobooks(downloadStatus: AudioEngine_Private.FAEDownloadStatus) -> [AudioEngine.FAEAudiobookStatus]
+  @objc public func fetchAudiobookIds(downloadStatus: AudioEngine_Private.FAEDownloadStatus) -> [Swift.String]
+  @objc public func fetchAudiobooks() -> [AudioEngine.FAEAudiobookStatus]
+  @objc public func fetchAudiobookChapter(chapterDescription: AudioEngine.FAEChapterDescription) -> AudioEngine.FAEChapterStatus?
+  @objc public func fetchAudiobookChapters(audiobookId: Swift.String) -> [AudioEngine.FAEChapterStatus]
+  @objc public func fetchDownloadRequest(requestId: Swift.String) -> AudioEngine.FAEDownloadRequest?
+  @objc public func fetchDownloadRequests() -> [AudioEngine.FAEDownloadRequest]
+  @objc public func update(audiobook: AudioEngine.FAEAudiobookStatus)
+  @objc public func update(chapter: AudioEngine.FAEChapterStatus)
+  @objc public func update(chapters: [AudioEngine.FAEChapterStatus])
+  @objc public func update(downloadRequest: AudioEngine.FAEDownloadRequest)
+  @objc public func delete(audiobook: AudioEngine.FAEAudiobookStatus)
+  @objc public func deleteAudiobookChapters(audiobookId: Swift.String)
+  @objc public func delete(request: AudioEngine.FAEDownloadRequest)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FAEPlaybackEngine : AudioEngine_Private._FAEPlaybackEngine {
+  @objc public func play(forPlaybackRequest playbackRequest: AudioEngine.FAEPlaybackRequest)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public protocol ChapterMetadata {
+  @objc var part: Swift.UInt { get }
+  @objc var chapter: Swift.UInt { get }
+  @objc var duration: Swift.UInt64 { get }
+  @objc var partName: Swift.String? { get }
+  @objc var chapterName: Swift.String { get }
+  @objc var bitrate: Swift.UInt { get }
+  @objc var sampleRate: Swift.UInt { get }
+  @objc var totalSize: Swift.UInt64 { get }
+  @objc var format: Swift.String? { get }
+}
+@_inheritsConvenienceInitializers @objc public class FAENotificationPoster : ObjectiveC.NSObject {
+  @objc public class func postNotification(name: Swift.String, userInfo: Foundation.NSDictionary?)
+  @objc(prepareDictionaryWithDownloadRequest:errorDescription:errorCode:underlyingError:) public class func prepareDictionary(downloadRequest: AudioEngine.FAEDownloadRequest, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc(prepareDictionaryWithChapterDescription:downloadRequest:errorDescription:errorCode:underlyingError:) public class func prepareDictionary(chapterDescription: AudioEngine.FAEChapterDescription, downloadRequest: AudioEngine.FAEDownloadRequest, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc(prepareDictionaryWithChapterDescription:errorDescription:errorCode:underlyingError:) public class func prepareDictionary(chapterDescription: AudioEngine.FAEChapterDescription, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc(prepareDictionaryWithAudiobookIdentifier:errorDescription:errorCode:underlyingError:) public class func prepareDictionary(audiobookIdentifier: Swift.String, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc(transformDownloadDictErrorWithChapterDescription:downloadRequest:errorDescription:errorCode:underlyingError:) public class func transformDownloadError(chapterDescription: AudioEngine.FAEChapterDescription?, downloadRequest: AudioEngine.FAEDownloadRequest, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc(transformPlaybackDictErrorWithChapterDescription:errorDescription:errorCode:underlyingError:) public class func transformPlaybackError(chapterDescription: AudioEngine.FAEChapterDescription, errorDescription: Swift.String?, errorCode: Swift.UInt, underlyingError: Foundation.NSError?) -> [Swift.String : Any]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class AudioVersionCompare : ObjectiveC.NSObject {
+  @objc public enum ChaptersChange : Swift.UInt {
+    case noChange
+    case nameNumberingChange
+    case audioChange
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+    public init?(rawValue: Swift.UInt)
+  }
+  @objc public static func haveChaptersChanged(oldChapters: [AudioEngine.ChapterMetadata], newChapters: [AudioEngine.ChapterMetadata]) -> AudioEngine.AudioVersionCompare.ChaptersChange
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class FAEAudiobookStatus : ObjectiveC.NSObject {
+  public static var databaseTableName: Swift.String
+  @objc public var audiobookIdentifier: Swift.String
+  @objc public var downloadStatus: AudioEngine_Private.FAEDownloadStatus
+  @objc public var downloadedSize: Swift.UInt64
+  @objc public var totalSize: Swift.UInt64
+  @objc public init(audiobookIdentifier: Swift.String, totalSize: Swift.UInt64)
+  @objc required public init(audiobookIdentifier: Swift.String, downloadStatus: AudioEngine_Private.FAEDownloadStatus, downloadedSize: Swift.UInt64, totalSize: Swift.UInt64)
+  @objc public func encryptedSize() -> Swift.UInt64
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class AudiobookWithChapters : ObjectiveC.NSObject {
+  @objc final public let audiobookId: Swift.String
+  @objc final public let totalSize: Swift.UInt64
+  @objc final public let chapters: [AudioEngine.AudiobookChapter]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FAEDownloadEngine : AudioEngine_Private._FAEDownloadEngine {
+  @objc override dynamic public func beginDownloadOperation(_ requestId: Swift.String)
+  @objc override dynamic public func restartOldRequests()
+  @objc public func currentDownloadRequests() -> [AudioEngine.FAEDownloadRequest]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class FilesystemMigration : ObjectiveC.NSObject {
+  @objc public class func migrate()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class FilesystemHelper : ObjectiveC.NSObject {
+  @objc public class func audioParentDirectory() -> Foundation.URL
+  @objc public class func audiobookAudioDirectory(audiobookID: Swift.String) -> Foundation.URL
+  @objc public class func metadataDatabasePath() -> Foundation.URL
+  @objc public class func persistenceEngineDatabasePath() -> Foundation.URL
+  @objc public class func createSupportDirectory() -> Foundation.URL
+  @objc public class func createAudiobookDirectory(audiobookID: Swift.String, createError: Swift.UnsafeMutablePointer<Foundation.NSError?>) -> Foundation.URL?
+  @objc public class func filename(description: AudioEngine.FAEChapterDescription) -> Swift.String
+  @objc public class func filename(chapterId: Swift.String) -> Swift.String
+  @objc public class func chapterDescription(filename: Swift.String) -> AudioEngine.FAEChapterDescription?
+  @objc public class func filePath(description: AudioEngine.FAEChapterDescription) -> Foundation.URL
+  @objc public class func fileExists(chapterId: Swift.String) -> Swift.Bool
+  @objc public class func fileExists(description: AudioEngine.FAEChapterDescription) -> Swift.Bool
+  @objc public class func filePath(chapterId: Swift.String) -> Foundation.URL
+  @objc public class func sizeOnDisk(description: AudioEngine.FAEChapterDescription) -> Swift.UInt64
+  @objc public class func sizeOnDisk(chapterId: Swift.String) -> Swift.UInt64
+  @objc public class func deleteFile(chapterId: Swift.String, notify: Swift.Bool)
+  @objc public class func moveFile(source: Foundation.URL, destination: Foundation.URL) throws
+  @objc public class func deleteFile(description: AudioEngine.FAEChapterDescription, notify: Swift.Bool)
+  @objc public class func deleteAllFiles(audiobookID: Swift.String)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers @objc public class FAEAudioTask : Foundation.Operation {
+  @objc final public let audiobookID: Swift.String
+  @objc override dynamic public func start()
+  @objc override dynamic public func cancel()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias AudiobookChapter = AudioEngine.FAEChapterStatus
+@objc public class FAEChapterStatus : ObjectiveC.NSObject, AudioEngine.ChapterMetadata {
+  public static let databaseTableName: Swift.String
+  @objc public var chapterId: Swift.String {
+    @objc get
+  }
+  @objc final public let audiobookId: Swift.String
+  @objc final public let part: Swift.UInt
+  @objc final public let chapter: Swift.UInt
+  @objc public var downloadStatus: AudioEngine_Private.FAEDownloadStatus
+  @objc public var downloadedSize: Swift.UInt64
+  @objc public var totalSize: Swift.UInt64
+  @objc public var playlistToken: Swift.String?
+  @objc final public let partName: Swift.String?
+  @objc final public let chapterName: Swift.String
+  @objc final public let bitrate: Swift.UInt
+  @objc final public let sampleRate: Swift.UInt
+  @objc final public let duration: Swift.UInt64
+  @objc final public let format: Swift.String?
+  @objc public var key: Swift.String?
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc public init(audiobookId: Swift.String, part: Swift.UInt, chapter: Swift.UInt, totalSize: Swift.UInt64, partName: Swift.String?, chapterName: Swift.String, bitrate: Swift.UInt, sampleRate: Swift.UInt, duration: Swift.UInt64, format: Swift.String?)
+  @objc required public init(id: Swift.UInt64, chapterDescription: AudioEngine.FAEChapterDescription, downloadStatus: AudioEngine_Private.FAEDownloadStatus, downloadedSize: Swift.UInt64, totalSize: Swift.UInt64, playlistToken: Swift.String?, partName: Swift.String?, chapterName: Swift.String, bitrate: Swift.UInt, sampleRate: Swift.UInt, duration: Swift.UInt64, format: Swift.String?, key: Swift.String?)
+  @objc public func decryptedFileSize() -> Swift.UInt64
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class FAEDownloadTask : AudioEngine.FAEAudioTask {
+  @objc final public let request: AudioEngine.FAEDownloadRequest
+  @objc override dynamic public func cancel()
+  @objc deinit
+}
+@objc public enum FAEAudiobookDownloadType : Swift.UInt {
+  case fullWrap = 0
+  case fullNoWrap = 1
+  case singleChapter = 2
+  public typealias RawValue = Swift.UInt
+  public init?(rawValue: Swift.UInt)
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class ContentRequest : ObjectiveC.NSObject {
+  @objc public static let FAEDownloadRequestDefaultPart: Swift.UInt
+  @objc public static let FAEDownloadRequestDefaultChapter: Swift.UInt
+  @objc final public let requestIdentifier: Swift.String
+  @objc final public let audiobookID: Swift.String
+  @objc final public let sessionKey: Swift.String
+  @objc final public let licenseID: Swift.String
+  @objc final public let restrictToWiFi: Swift.Bool
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers @objc public class FAEDownloadRequest : AudioEngine.ContentRequest {
+  public static let databaseTableName: Swift.String
+  @objc final public let partNumber: Swift.UInt
+  @objc final public let chapterNumber: Swift.UInt
+  @objc final public let downloadType: AudioEngine.FAEAudiobookDownloadType
+  @objc convenience public init(audiobookID: Swift.String, sessionKey: Swift.String, licenseID: Swift.String, restrictToWiFi: Swift.Bool)
+  @objc convenience public init(audiobookID: Swift.String, partNumber: Swift.UInt, chapterNumber: Swift.UInt, sessionKey: Swift.String, licenseID: Swift.String, restrictToWiFi: Swift.Bool)
+  @objc convenience public init(audiobookID: Swift.String, partNumber: Swift.UInt, chapterNumber: Swift.UInt, downloadType: AudioEngine.FAEAudiobookDownloadType, sessionKey: Swift.String, licenseID: Swift.String, restrictToWiFi: Swift.Bool)
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc public func getChapters() -> [AudioEngine.FAEChapterStatus]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class FAEPlaybackRequest : AudioEngine.ContentRequest {
+  @objc final public let totalBookOffset: Swift.UInt64
+  @objc public init(audiobookID: Swift.String, totalBookOffset: Swift.UInt64, sessionKey: Swift.String, licenseID: Swift.String, restrictToWiFi: Swift.Bool)
+  @objc deinit
+}
+extension AudioEngine.AudioVersionCompare.ChaptersChange : Swift.Equatable {}
+extension AudioEngine.AudioVersionCompare.ChaptersChange : Swift.Hashable {}
+extension AudioEngine.AudioVersionCompare.ChaptersChange : Swift.RawRepresentable {}
+extension AudioEngine.FAEAudiobookDownloadType : Swift.Equatable {}
+extension AudioEngine.FAEAudiobookDownloadType : Swift.Hashable {}
+extension AudioEngine.FAEAudiobookDownloadType : Swift.RawRepresentable {}
