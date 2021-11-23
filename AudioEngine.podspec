@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AudioEngine"
-  spec.version      = "6.5.6-preview"
+  spec.version      = "6.5.6"
   spec.summary      = "The AudioEngine SDK for iOS."
   spec.homepage     = "https://developer.audioengine.io/sdk/ios"
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "AudioEngine.xcframework/ios-arm64_armv7_armv7s/AudioEngine.framework/Headers/*.h"
   spec.source_files = "AudioEngine.xcframework/ios-arm64_armv7_armv7s/AudioEngine.framework/Headers/*.h"
   spec.vendored_frameworks = "AudioEngine.xcframework"
-  spec.preserve_path = "AudioEngine-iphoneos.framework.dSYM"
+  spec.preserve_paths = ["AudioEngine-iphoneos.framework.dSYM", "Licenses"]
 
 
 end

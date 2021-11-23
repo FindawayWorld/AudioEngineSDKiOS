@@ -46,7 +46,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		/In1HbDWGsGarAvoqttZiy2AhZQ=
+		9vZh82/gfQarpiG5TCnoRHMQ2B4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OJYbosyNHdmX/ScnNL8Y6AkVyMONNIbQ6QHjzmSm6jc=
+			q8KSJh54ngNSS0Z3IZNhQWwIKlFXRlEYFEeYqvHqZfA=
 			</data>
 		</dict>
 		<key>Headers/AudioEngine.h</key>
@@ -149,116 +149,60 @@
 			Z/2FTyM5uwDPp+6mg6iRWngY8nV88Y8dTiBjJ9z48uo=
 			</data>
 		</dict>
-		<key>Modules/AudioEngine.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y3PjCFPIGGl18q5wOLNWp37G4VLq6aLCu4UWuKYo7Q4=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y3PjCFPIGGl18q5wOLNWp37G4VLq6aLCu4UWuKYo7Q4=
-			</data>
-		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4LY5MC2492BHvU1DHl9BGgescVmr6iOPIerwLbX6an4=
+			8s28Z++mFvsArb/PbGoqYsKJUfrOUxCYCXrMJOJ1pDI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4LY5MC2492BHvU1DHl9BGgescVmr6iOPIerwLbX6an4=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A5P3hoTT4c6uPuttuA1OxYOeejNws5CdFcpzZgid4WQ=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tBCHKVb/QqP9Ag3mJokZ4W+tAEclfdeL+qHkRYDdGaE=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MkAlp8pNw/NaMdoGyO5m9atHcgFckkLniGk5fYBVK0A=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A5P3hoTT4c6uPuttuA1OxYOeejNws5CdFcpzZgid4WQ=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tBCHKVb/QqP9Ag3mJokZ4W+tAEclfdeL+qHkRYDdGaE=
-			</data>
-		</dict>
-		<key>Modules/AudioEngine.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MkAlp8pNw/NaMdoGyO5m9atHcgFckkLniGk5fYBVK0A=
+			8s28Z++mFvsArb/PbGoqYsKJUfrOUxCYCXrMJOJ1pDI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPuP8hDDaeLsBLekBW2oAUJtMMJN8VNzujlZLeqlGdQ=
+			GDA9xiexYHZ6P6I+1mJJVKTM+HB67eXRZELOMpLHYwo=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hB4iJzHX1Zahq+jPyyBpA2HN8QzrxBaTzJCwaryCLHs=
+			4usoODj7y1K8Bu2pTkTrRU7vBff6jOTzBBMn5NPQpe8=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoMhMjVxjgMnFE72OfqsWT+LYYJWA+L1QzYouApWQ1Y=
+			F79RVYw+r0UfIF0r3E6vce+Fnv/b5WQai8k2CNcq5WI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPuP8hDDaeLsBLekBW2oAUJtMMJN8VNzujlZLeqlGdQ=
+			GDA9xiexYHZ6P6I+1mJJVKTM+HB67eXRZELOMpLHYwo=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hB4iJzHX1Zahq+jPyyBpA2HN8QzrxBaTzJCwaryCLHs=
+			4usoODj7y1K8Bu2pTkTrRU7vBff6jOTzBBMn5NPQpe8=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoMhMjVxjgMnFE72OfqsWT+LYYJWA+L1QzYouApWQ1Y=
+			F79RVYw+r0UfIF0r3E6vce+Fnv/b5WQai8k2CNcq5WI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -273,13 +217,6 @@
 			<key>hash2</key>
 			<data>
 			Q52JDbg6cCx5X341oe+VHIvbirOxXnLWFzTWoIMwv0E=
-			</data>
-		</dict>
-		<key>PrivateHeaders/FAEDownloadEngine.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JKObimQUHFcIFFnw4fRYZz0ut/ALyPFIPpCuRbHkCKU=
 			</data>
 		</dict>
 		<key>Resources/AEModel.momd/AEModel.mom</key>
@@ -356,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOxLw6am7toIGVhOkvW2az7yOKQ/K29o/XyDbxnp6/0=
+			osVM5i4b79pXKX/xLU3HSfL82/jE+2DDNSlS0jMTgnk=
 			</data>
 		</dict>
 	</dict>
