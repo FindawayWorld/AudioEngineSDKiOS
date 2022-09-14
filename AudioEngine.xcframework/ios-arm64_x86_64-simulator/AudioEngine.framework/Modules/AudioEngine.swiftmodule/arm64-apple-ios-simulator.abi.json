@@ -1,0 +1,2473 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FAEPlaylist",
+        "printedName": "FAEPlaylist",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "audiobookId",
+            "printedName": "audiobookId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(py)audiobookId",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC11audiobookIdSSvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)audiobookId",
+                "mangledName": "$s11AudioEngine11FAEPlaylistC11audiobookIdSSvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playlistToken",
+            "printedName": "playlistToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(py)playlistToken",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC13playlistTokenSSvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)playlistToken",
+                "mangledName": "$s11AudioEngine11FAEPlaylistC13playlistTokenSSvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expires",
+            "printedName": "expires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(py)expires",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC7expires10Foundation4DateVvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)expires",
+                "mangledName": "$s11AudioEngine11FAEPlaylistC7expires10Foundation4DateVvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playlist",
+            "printedName": "playlist",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AudioEngine.FAEPlaylistItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEPlaylistItem",
+                    "printedName": "AudioEngine.FAEPlaylistItem",
+                    "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(py)playlist",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC8playlistSayAA0C4ItemCGvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AudioEngine.FAEPlaylistItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FAEPlaylistItem",
+                        "printedName": "AudioEngine.FAEPlaylistItem",
+                        "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)playlist",
+                "mangledName": "$s11AudioEngine11FAEPlaylistC8playlistSayAA0C4ItemCGvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(audiobookId:playlistToken:expires:playlist:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEPlaylist",
+                "printedName": "AudioEngine.FAEPlaylist",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AudioEngine.FAEPlaylistItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEPlaylistItem",
+                    "printedName": "AudioEngine.FAEPlaylistItem",
+                    "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)initWithAudiobookId:playlistToken:expires:playlist:",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC11audiobookId13playlistToken7expires0F0ACSS_SS10Foundation4DateVSayAA0C4ItemCGtcfc",
+            "moduleName": "AudioEngine",
+            "objc_name": "initWithAudiobookId:playlistToken:expires:playlist:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "playlistItem",
+            "printedName": "playlistItem(chapterDescription:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AudioEngine.FAEPlaylistItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEPlaylistItem",
+                    "printedName": "AudioEngine.FAEPlaylistItem",
+                    "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)playlistItemForChapterDescription:",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC12playlistItem18chapterDescriptionAA0cE0CSgSo010FAEChapterG0C_tF",
+            "moduleName": "AudioEngine",
+            "objc_name": "playlistItemForChapterDescription:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodePlaylist",
+            "printedName": "decodePlaylist(dictionary:audiobookId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AudioEngine.FAEPlaylist?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEPlaylist",
+                    "printedName": "AudioEngine.FAEPlaylist",
+                    "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(cm)serializePlaylistFromDictionary:forAudiobookID:",
+            "mangledName": "$s11AudioEngine11FAEPlaylistC14decodePlaylist10dictionary11audiobookIdACSgSDySSypG_SStFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "serializePlaylistFromDictionary:forAudiobookID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEPlaylist",
+                "printedName": "AudioEngine.FAEPlaylist",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist(im)init",
+            "mangledName": "$s11AudioEngine11FAEPlaylistCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist",
+        "mangledName": "$s11AudioEngine11FAEPlaylistC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FAEPlaylistItem",
+        "printedName": "FAEPlaylistItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "audiobookId",
+            "printedName": "audiobookId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)audiobookId",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC11audiobookIdSSvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)audiobookId",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC11audiobookIdSSvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "part",
+            "printedName": "part",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)part",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC4partSuvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)part",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC4partSuvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chapter",
+            "printedName": "chapter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)chapter",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC7chapterSuvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)chapter",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC7chapterSuvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)url",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC3url10Foundation3URLVvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)url",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC3url10Foundation3URLVvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)key",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC3keySSSgvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)key",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC3keySSSgvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chapterDescription",
+            "printedName": "chapterDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AudioEngine.FAEChapterDescription?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEChapterDescription",
+                    "printedName": "AudioEngine.FAEChapterDescription",
+                    "usr": "c:objc(cs)FAEChapterDescription"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(py)chapterDescription",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC18chapterDescriptionSo010FAEChapterF0CSgvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AudioEngine.FAEChapterDescription?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FAEChapterDescription",
+                        "printedName": "AudioEngine.FAEChapterDescription",
+                        "usr": "c:objc(cs)FAEChapterDescription"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)chapterDescription",
+                "mangledName": "$s11AudioEngine15FAEPlaylistItemC18chapterDescriptionSo010FAEChapterF0CSgvg",
+                "moduleName": "AudioEngine",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(audiobookId:part:chapter:url:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEPlaylistItem",
+                "printedName": "AudioEngine.FAEPlaylistItem",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)initWithAudiobookId:part:chapter:url:key:",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemC11audiobookId4part7chapter3url3keyACSS_S2u10Foundation3URLVSSSgtcfc",
+            "moduleName": "AudioEngine",
+            "objc_name": "initWithAudiobookId:part:chapter:url:key:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEPlaylistItem",
+                "printedName": "AudioEngine.FAEPlaylistItem",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem(im)init",
+            "mangledName": "$s11AudioEngine15FAEPlaylistItemCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylistItem",
+        "mangledName": "$s11AudioEngine15FAEPlaylistItemC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FAEProgress",
+        "printedName": "FAEProgress",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fractionCompleted",
+            "printedName": "fractionCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(py)fractionCompleted",
+            "mangledName": "$s11AudioEngine11FAEProgressC17fractionCompletedSdvp",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)fractionCompleted",
+                "mangledName": "$s11AudioEngine11FAEProgressC17fractionCompletedSdvg",
+                "moduleName": "AudioEngine",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(completedWork:totalWork:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEProgress",
+                "printedName": "AudioEngine.FAEProgress",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEProgress"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)initWithCompletedWork:totalWork:",
+            "mangledName": "$s11AudioEngine11FAEProgressC13completedWork05totalE0ACs6UInt64V_AGtcfc",
+            "moduleName": "AudioEngine",
+            "objc_name": "initWithCompletedWork:totalWork:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "assignChild",
+            "printedName": "assignChild(_:work:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEProgress",
+                "printedName": "AudioEngine.FAEProgress",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEProgress"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)assignChild:work:",
+            "mangledName": "$s11AudioEngine11FAEProgressC11assignChild_4workyAC_s6UInt64VtF",
+            "moduleName": "AudioEngine",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCompletedWork",
+            "printedName": "setCompletedWork(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)setCompletedUnitCount:",
+            "mangledName": "$s11AudioEngine11FAEProgressC16setCompletedWorkyys6UInt64VF",
+            "moduleName": "AudioEngine",
+            "objc_name": "setCompletedUnitCount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTotalWork",
+            "printedName": "setTotalWork(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)setTotalUnitCount:",
+            "mangledName": "$s11AudioEngine11FAEProgressC12setTotalWorkyys6UInt64VF",
+            "moduleName": "AudioEngine",
+            "objc_name": "setTotalUnitCount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(py)description",
+            "mangledName": "$s11AudioEngine11FAEProgressC11descriptionSSvp",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)description",
+                "mangledName": "$s11AudioEngine11FAEProgressC11descriptionSSvg",
+                "moduleName": "AudioEngine",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FAEProgress",
+                "printedName": "AudioEngine.FAEProgress",
+                "usr": "c:@M@AudioEngine@objc(cs)FAEProgress"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FAEProgress(im)init",
+            "mangledName": "$s11AudioEngine11FAEProgressCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)FAEProgress",
+        "mangledName": "$s11AudioEngine11FAEProgressC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioEngine_Private",
+        "printedName": "AudioEngine_Private",
+        "declKind": "Import",
+        "moduleName": "AudioEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TaskSynchronizer",
+        "printedName": "TaskSynchronizer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchAudiobookMetadata",
+            "printedName": "fetchAudiobookMetadata(audiobookID:sessionKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)TaskSynchronizer(im)fetchAudiobookMetadataWithAudiobookID:sessionKey:completion:",
+            "mangledName": "$s11AudioEngine16TaskSynchronizerC22fetchAudiobookMetadata11audiobookID10sessionKey10completionySS_SSySo7NSErrorCSgctF",
+            "moduleName": "AudioEngine",
+            "objc_name": "fetchAudiobookMetadataWithAudiobookID:sessionKey:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPlaylistMetadata",
+            "printedName": "fetchPlaylistMetadata(audiobookID:licenseID:sessionKey:encrypted:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AudioEngine.FAEPlaylist?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AudioEngine.FAEPlaylist?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AudioEngine.FAEPlaylist?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FAEPlaylist",
+                            "printedName": "AudioEngine.FAEPlaylist",
+                            "usr": "c:@M@AudioEngine@objc(cs)FAEPlaylist"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)TaskSynchronizer(im)fetchPlaylistMetadataWithAudiobookID:licenseID:sessionKey:encrypted:completion:",
+            "mangledName": "$s11AudioEngine16TaskSynchronizerC21fetchPlaylistMetadata11audiobookID07licenseI010sessionKey9encrypted10completionySS_S2SSbyAA11FAEPlaylistCSg_So7NSErrorCSgtctF",
+            "moduleName": "AudioEngine",
+            "objc_name": "fetchPlaylistMetadataWithAudiobookID:licenseID:sessionKey:encrypted:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TaskSynchronizer",
+                "printedName": "AudioEngine.TaskSynchronizer",
+                "usr": "c:@M@AudioEngine@objc(cs)TaskSynchronizer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)TaskSynchronizer(im)init",
+            "mangledName": "$s11AudioEngine16TaskSynchronizerCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)TaskSynchronizer",
+        "mangledName": "$s11AudioEngine16TaskSynchronizerC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FilesystemMigration",
+        "printedName": "FilesystemMigration",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "migrate",
+            "printedName": "migrate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemMigration(cm)migrate",
+            "mangledName": "$s11AudioEngine19FilesystemMigrationC7migrateyyFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FilesystemMigration",
+                "printedName": "AudioEngine.FilesystemMigration",
+                "usr": "c:@M@AudioEngine@objc(cs)FilesystemMigration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemMigration(im)init",
+            "mangledName": "$s11AudioEngine19FilesystemMigrationCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)FilesystemMigration",
+        "mangledName": "$s11AudioEngine19FilesystemMigrationC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FilesystemHelper",
+        "printedName": "FilesystemHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "audioParentDirectory",
+            "printedName": "audioParentDirectory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)audioParentDirectory",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC20audioParentDirectory10Foundation3URLVyFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audiobookAudioDirectory",
+            "printedName": "audiobookAudioDirectory(audiobookID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)audiobookAudioDirectoryWithAudiobookID:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC09audiobookA9Directory0E2ID10Foundation3URLVSS_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "audiobookAudioDirectoryWithAudiobookID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "metadataDatabasePath",
+            "printedName": "metadataDatabasePath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)metadataDatabasePath",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC20metadataDatabasePath10Foundation3URLVyFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "persistenceEngineDatabasePath",
+            "printedName": "persistenceEngineDatabasePath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)persistenceEngineDatabasePath",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC011persistenceB12DatabasePath10Foundation3URLVyFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSupportDirectory",
+            "printedName": "createSupportDirectory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)createSupportDirectory",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC22createSupportDirectory10Foundation3URLVyFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createAudiobookDirectory",
+            "printedName": "createAudiobookDirectory(audiobookID:createError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Foundation.NSError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)createAudiobookDirectoryWithAudiobookID:createError:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC24createAudiobookDirectory11audiobookID0E5Error10Foundation3URLVSgSS_SpySo7NSErrorCGtFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "createAudiobookDirectoryWithAudiobookID:createError:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "filename",
+            "printedName": "filename(description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)filenameWithDescription:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC8filename11descriptionSSSo21FAEChapterDescriptionC_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "filenameWithDescription:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chapterDescription",
+            "printedName": "chapterDescription(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AudioEngine.FAEChapterDescription?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FAEChapterDescription",
+                    "printedName": "AudioEngine.FAEChapterDescription",
+                    "usr": "c:objc(cs)FAEChapterDescription"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)chapterDescriptionWithFilename:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC18chapterDescription8filenameSo010FAEChapterF0CSgSS_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "chapterDescriptionWithFilename:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "filePath",
+            "printedName": "filePath(description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)filePathWithDescription:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC8filePath11description10Foundation3URLVSo21FAEChapterDescriptionC_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "filePathWithDescription:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileExists",
+            "printedName": "fileExists(description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)fileExistsWithDescription:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC10fileExists11descriptionSbSo21FAEChapterDescriptionC_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "fileExistsWithDescription:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sizeOnDisk",
+            "printedName": "sizeOnDisk(description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)sizeOnDiskWithDescription:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC10sizeOnDisk11descriptions6UInt64VSo21FAEChapterDescriptionC_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "sizeOnDiskWithDescription:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteFile",
+            "printedName": "deleteFile(description:notify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FAEChapterDescription",
+                "printedName": "AudioEngine.FAEChapterDescription",
+                "usr": "c:objc(cs)FAEChapterDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)deleteFileWithDescription:notify:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC10deleteFile11description6notifyySo21FAEChapterDescriptionC_SbtFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "deleteFileWithDescription:notify:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAllFiles",
+            "printedName": "deleteAllFiles(audiobookID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(cm)deleteAllFilesWithAudiobookID:",
+            "mangledName": "$s11AudioEngine16FilesystemHelperC14deleteAllFiles11audiobookIDySS_tFZ",
+            "moduleName": "AudioEngine",
+            "static": true,
+            "objc_name": "deleteAllFilesWithAudiobookID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FilesystemHelper",
+                "printedName": "AudioEngine.FilesystemHelper",
+                "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper(im)init",
+            "mangledName": "$s11AudioEngine16FilesystemHelperCACycfc",
+            "moduleName": "AudioEngine",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AudioEngine@objc(cs)FilesystemHelper",
+        "mangledName": "$s11AudioEngine16FilesystemHelperC",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AudioEngine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioEngine_Private",
+        "printedName": "AudioEngine_Private",
+        "declKind": "Import",
+        "moduleName": "AudioEngine"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 11,
+      "value": "\"AudioEngine.FAEPlaylist\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 2278,
+      "length": 15,
+      "value": "\"AudioEngine.FAEPlaylistItem\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 1559,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "Array",
+      "offset": 1778,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 1881,
+      "length": 29,
+      "value": "\"io.audioengine.sdk.progress\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 11,
+      "value": "\"AudioEngine.FAEProgress\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 29,
+      "value": "\"io.audioengine.sdk.metadata\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 29,
+      "value": "\"io.audioengine.sdk.playlist\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "Array",
+      "offset": 502,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "Array",
+      "offset": 600,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 34,
+      "value": "\"io.audioengine.migration.version\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 20,
+      "value": "\"AudioEngineSupport\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 7,
+      "value": "\"Audio\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 20,
+      "value": "\"SDKMetadata.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 26,
+      "value": "\"PersistenceEngine.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "40"
+    }
+  ]
+}
