@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AudioEngine
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AudioEngine
-import AudioEngine_Private
 import Foundation
 import Swift
 import _Concurrency

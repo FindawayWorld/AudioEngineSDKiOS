@@ -17,3 +17,7 @@
 #import <AudioEngine/FAENotifications.h>
 #import <AudioEngine/FAEAudiobook.h>
 #import <AudioEngine/FAEChapter.h>
+
+#import <AudioEngine/FAEAPIErrorResponse.h>
+#import <AudioEngine/FAEAudiobookAPIFetch.h>
+#import <AudioEngine/FAEUtils.h>
