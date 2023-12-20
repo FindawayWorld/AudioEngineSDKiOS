@@ -6,27 +6,27 @@
 	<dict>
 		<key>AEModel.momd/AEModel.mom</key>
 		<data>
-		oOP1xA5KU9qTEFtgZ57OoLwLE60=
+		sv7B4p7Fs/4Xd4RHg04agzoS/RI=
 		</data>
 		<key>AEModel.momd/AEModel2.mom</key>
 		<data>
-		lBBvkMlK7mkNBjstQk8jxBApVi4=
+		pG+R7HjVRNrYmL7H5XBjqNii+uU=
 		</data>
 		<key>AEModel.momd/AEModel3.mom</key>
 		<data>
-		h2dbwMVdzOTID+EjrEy4lDryigU=
+		2BO00YR1JNz60OVPZGYwMrvkDFY=
 		</data>
 		<key>AEModel.momd/AEModel4.mom</key>
 		<data>
-		MEzxL1r5PhoJFy5UWVRe6escR7s=
+		NOf47RGnnSTTxmXo535A5MYfbiY=
 		</data>
 		<key>AEModel.momd/AEModel5.mom</key>
 		<data>
-		G6ViFfxpQqg6QXiQwbC64U9PJSc=
+		K/7FyEg+0Roqe64UcBG98mJ7Pg8=
 		</data>
 		<key>AEModel.momd/AEModel6.mom</key>
 		<data>
-		hasNOj/t70byic2RmqDwtyctfQU=
+		Umm/3F6Fz+5GPMBk8UbnihgU8cU=
 		</data>
 		<key>AEModel.momd/AEModel6.omo</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>AEModel.momd/VersionInfo.plist</key>
 		<data>
-		PeYML6F+rrk6Cf0vTLLF8XO8eD0=
+		8tCfqQ1e11qxMt6/EWvYSd8iR20=
 		</data>
 		<key>AEModel_v4_v5.cdm</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/AudioEngine-Swift.h</key>
 		<data>
-		2hQd/0q+V18czhwMOXU4JtqxxC0=
+		S8MhhLV+BBgmrLod4c4A8AC9lCc=
 		</data>
 		<key>Headers/AudioEngine.h</key>
 		<data>
@@ -118,135 +118,111 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SBAO/XqgrElaHlOas7QANoxzvso=
+		jKO6/VVSAU9pX0z8fcK/PxTjRfU=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ByDKNd9OAzRHqvx6BmsD+7fXSAA=
+		0TDbqIffbdrxv3hfCumYPezmWTs=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Fh6kpq5ROTi4wqkGfK+LWFV1sY0=
+		sRqfgh4FO9sdAHYUq6Ofpxi2BgY=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1JTG8F2OlGUrIEbrVT0vTHJdkIk=
+		OXNmwb0RHct9sjeu3kSvJh2o5Ag=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		01Pb3Vwiai55HrWXvHVKJ9RVmTA=
+		8Qne/FI+Qw8EyFr70pzmoA9MNzQ=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gQ6gTvaqHV2mBwsoROMt0Xi/rEg=
+		kVRbd3IvE+8wRLEaUOvmqigFRi4=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		01Pb3Vwiai55HrWXvHVKJ9RVmTA=
+		8Qne/FI+Qw8EyFr70pzmoA9MNzQ=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+yisO5kAZTbm2W5RDAwUq5NjZuY=
+		x4AMn9xPwv4pYsuANEl8X1NLS9c=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1JTG8F2OlGUrIEbrVT0vTHJdkIk=
+		OXNmwb0RHct9sjeu3kSvJh2o5Ag=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zg2kbU3EbfXF5MrGVs+J27in3aY=
+		LXDJhItmDJO8vwPK1DeTYWXGj8Q=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qOawEhr3RErfJRZjODdX4Mf764M=
+		vz/pmhAWX9w6358WYpyc792E8bs=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zg2kbU3EbfXF5MrGVs+J27in3aY=
+		LXDJhItmDJO8vwPK1DeTYWXGj8Q=
 		</data>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Nfv/Zt1rLP+ZW2Nh3O/jRWe8cQg=
+		oVbpTLMX2plGc1DwxIzY+tLlZy0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		6snMNmtMaHFj8W+l3oCPyljP5YM=
+		AiUbwYpsOH5u/nTr7RSHv0bTWZ8=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		+lopRXhTFngWGK1pZcJn8Z039Bg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>AEModel.momd/AEModel.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oOP1xA5KU9qTEFtgZ57OoLwLE60=
-			</data>
 			<key>hash2</key>
 			<data>
-			eGhkXP2PsF7f3qExVETGF+1P1EB5JTBBhVB8SYmCU7A=
+			OstXpOm8S5qeobYICswMf6E5X46XazDPAfWpYDGY+SY=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel2.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lBBvkMlK7mkNBjstQk8jxBApVi4=
-			</data>
 			<key>hash2</key>
 			<data>
-			FlKhTEnVcvScveXyWsz0gXQM5r5ehUcemwvSVe/kcyU=
+			gDCTEjF1Xvv2IZoHMekFBhLf1OIOH/NAnpVSmnlyhgA=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel3.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h2dbwMVdzOTID+EjrEy4lDryigU=
-			</data>
 			<key>hash2</key>
 			<data>
-			55PAFoouSacLhTMhRclYBTRrPVEcglMgOtZCp/aiivw=
+			l9s5fUnVc+yZeZXmm9H0SVKEf63I9uirCPD5aQKVK78=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel4.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MEzxL1r5PhoJFy5UWVRe6escR7s=
-			</data>
 			<key>hash2</key>
 			<data>
-			0bJ7FKuHyoqyUIntL8DH/hY2L+seXfFmU2zA3wjTOTg=
+			fG5KbIRue8ucA/LU22AF2daHrg/y8lPikOR0CnwMgII=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel5.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G6ViFfxpQqg6QXiQwbC64U9PJSc=
-			</data>
 			<key>hash2</key>
 			<data>
-			Em07MNZO+I6gcGgfepEzKv/ipL8aygsf/ugfjmcijvs=
+			d+h/YxW4BjDfC/iG6X2/D7srgt+boZQOfKBpb0PEhFk=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel6.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hasNOj/t70byic2RmqDwtyctfQU=
-			</data>
 			<key>hash2</key>
 			<data>
-			UAF5w9tv8XnpNwxyaHWKGyXuiek5NVfQdayegL6/z+c=
+			V7GQlsMPLlOYKhzrDX3UlaEyO4I9++5t0JCBGQJHHUg=
 			</data>
 		</dict>
 		<key>AEModel.momd/AEModel6.omo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HODKL4UNXOVzVTkzoRxsO7E3Pz0=
-			</data>
 			<key>hash2</key>
 			<data>
 			DMF9sue5tu2SyFhBJyAlGLj96CylhpXYfjkHigQ/Mi0=
@@ -254,21 +230,13 @@
 		</dict>
 		<key>AEModel.momd/VersionInfo.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PeYML6F+rrk6Cf0vTLLF8XO8eD0=
-			</data>
 			<key>hash2</key>
 			<data>
-			VFDQiNf6O90MHgSRLRbJhH71mFXy2dC2hR33hZnguJA=
+			5JL71tkY32FjN+ypyxBj0mSI9vc158k9ncuwwSptdts=
 			</data>
 		</dict>
 		<key>AEModel_v4_v5.cdm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YMUaMoKllQ4vnUx1zb95oawgUfA=
-			</data>
 			<key>hash2</key>
 			<data>
 			BZxc4p5LoBkKG/V1+Vb4qwFFh4OEHK73iek41LCZSto=
@@ -276,10 +244,6 @@
 		</dict>
 		<key>AEModel_v5_v6.cdm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WKb4ymWy/ywYGubt5GH5omvSuEY=
-			</data>
 			<key>hash2</key>
 			<data>
 			VBvmCMdoFrWSAOtmz5neE9htZ2xu9bdY6ZqcMA9GEso=
@@ -287,10 +251,6 @@
 		</dict>
 		<key>FBKVOController.txt</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0MKO28YkwYRZSPFHw8rdo3UccM0=
-			</data>
 			<key>hash2</key>
 			<data>
 			MMFHX7G9incgSQp8R1faNz8gIXE4warmS87Fu2BMoig=
@@ -298,21 +258,13 @@
 		</dict>
 		<key>Headers/AudioEngine-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2hQd/0q+V18czhwMOXU4JtqxxC0=
-			</data>
 			<key>hash2</key>
 			<data>
-			fMv/vPNLc7omFzVRmj+x/IGGIt2KWJvmnyQm037da/A=
+			0lFHKEJcL3eflgxLSW0HSLN199M2pb4ix7ccdgqRmJA=
 			</data>
 		</dict>
 		<key>Headers/AudioEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g07i13qCYTddnD++8P5lfx/lyYg=
-			</data>
 			<key>hash2</key>
 			<data>
 			kHq+OUY9iU/txX7lTP8vE08SuTxKkuwlw18amGxAeWE=
@@ -320,10 +272,6 @@
 		</dict>
 		<key>Headers/FAEAPIErrorResponse.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I8IWs7XXm6D+uAlH6AtUawqLHY0=
-			</data>
 			<key>hash2</key>
 			<data>
 			bnfkhMbvsLc+ijNUc6R74BDzj2c0D0GBjvgZaaQE43s=
@@ -331,10 +279,6 @@
 		</dict>
 		<key>Headers/FAEAudioEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Cb9l1E4xMSWMUvD6YNF3+FdU4QA=
-			</data>
 			<key>hash2</key>
 			<data>
 			TtR/ZW8gnATO1MLRiPqu0ZpCj5NWLBH8gzr/rpUQN5E=
@@ -342,10 +286,6 @@
 		</dict>
 		<key>Headers/FAEAudiobook.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h5pZ/kLlSOrhmf6iUi6N+uIB8UI=
-			</data>
 			<key>hash2</key>
 			<data>
 			PG1AtjM2OkJP14uBp75csA2QuHTw32MT/lF6neM5mOk=
@@ -353,10 +293,6 @@
 		</dict>
 		<key>Headers/FAEAudiobookAPIFetch.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4RKimSAPUwOPgSFsgwuIDKz+TV0=
-			</data>
 			<key>hash2</key>
 			<data>
 			B1DVlUVjcwGbiRPq6MnqirhJkNoqowa0CiTL2ZHrqvk=
@@ -364,10 +300,6 @@
 		</dict>
 		<key>Headers/FAEAudiobookInterface.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uVGVqzfPbvi1iQqjxd1qy1buROI=
-			</data>
 			<key>hash2</key>
 			<data>
 			JZnizt5s45teEhQyyHBte0DrsPJZ+Yu8JQdAF/49sZM=
@@ -375,10 +307,6 @@
 		</dict>
 		<key>Headers/FAEChapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bREwAiWWWNcvTEofCrS2J/1/3KA=
-			</data>
 			<key>hash2</key>
 			<data>
 			rXxQgcS0Br+hDpM3Jfl4BJBBAGFfE9D54WG41oueTl4=
@@ -386,10 +314,6 @@
 		</dict>
 		<key>Headers/FAEChapterDescription.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			92qmHKxX0Q07b7Gqyy1jpuxXPdk=
-			</data>
 			<key>hash2</key>
 			<data>
 			y9k0/o+qQ88OO4waBq35D3mEzohwu9Zs7IKCF6AWqvk=
@@ -397,10 +321,6 @@
 		</dict>
 		<key>Headers/FAEChapterInterface.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kha+Tlj0lr/18CCjXS7yzGpvLO8=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZJWF32t5DckSNFwZIveyejvoM+XPPp6p4xeoffXqgBQ=
@@ -408,10 +328,6 @@
 		</dict>
 		<key>Headers/FAEDownloadEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9U+NGqrMCgRaHw595IVoX5UNdhU=
-			</data>
 			<key>hash2</key>
 			<data>
 			mDMqcQAa+CbP+mAj5J636YzZoz7O8q1l6kH4+cvSAEc=
@@ -419,10 +335,6 @@
 		</dict>
 		<key>Headers/FAEDownloadRequest.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e3KD37AuRkFpqBkATfM1oLL/s0k=
-			</data>
 			<key>hash2</key>
 			<data>
 			P8RP4zQa46GTIi3+fWd11HlNGKogKbro9ohy16uj0Xw=
@@ -430,10 +342,6 @@
 		</dict>
 		<key>Headers/FAELogEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uJfaZz7hSM+wYNejs26rScgKtRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			dPtx4KDuqha/IUc5MLIUzI2+3DCzslJ8Vwsx9FTEqgo=
@@ -441,10 +349,6 @@
 		</dict>
 		<key>Headers/FAENotifications.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rVOJRRycFDseyeKuRV3g47MfqaI=
-			</data>
 			<key>hash2</key>
 			<data>
 			bfQREsApkhtIbWx/DsFEzqQl/dtfspdRNC/wESOTbF0=
@@ -452,10 +356,6 @@
 		</dict>
 		<key>Headers/FAEPersistenceEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V1L6Aisx62gPUl8jgDguq3TCESE=
-			</data>
 			<key>hash2</key>
 			<data>
 			AWLI9bkh4RtgaYPBPE8fAb6KBeucKwaM9SIhzTa7q5M=
@@ -463,10 +363,6 @@
 		</dict>
 		<key>Headers/FAEPlaybackEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ErTmZNqVPHkkorCX+16E+u+qqrQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Z/2FTyM5uwDPp+6mg6iRWngY8nV88Y8dTiBjJ9z48uo=
@@ -474,10 +370,6 @@
 		</dict>
 		<key>Headers/FAEUtils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ix9fqR72GzZIGZkFGcCXOkeY16Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			k5uElRe38bAEZx3y8cm/Y4x2MYoMj/QGJIWb9no11mU=
@@ -485,145 +377,100 @@
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ByDKNd9OAzRHqvx6BmsD+7fXSAA=
-			</data>
 			<key>hash2</key>
 			<data>
-			gbWJCCi/8wLO1lfhR23WLBDBesdNmMA+ZfC6c5cNFjk=
+			Zuj8yAyximUCOzL44+9FWv3h4Hrqi61EX5Ebi3TN9EI=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fh6kpq5ROTi4wqkGfK+LWFV1sY0=
-			</data>
 			<key>hash2</key>
 			<data>
-			tQio1mxEcOGrox2q91SlGGCahtr4fYB+Ch0UYuaKGuQ=
+			1pbYs7duLrLkRgj+ZehucprGCLlI0KTamAPCvSthTQY=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1JTG8F2OlGUrIEbrVT0vTHJdkIk=
-			</data>
 			<key>hash2</key>
 			<data>
-			KKoiKx6ZBPndUF10Cxpgsj+n9/WbxDD41+aG5RAw9ew=
+			o2NfjJKmaximuHqBlfkyPWQdMWEdPgtd2/Pn1AJZBiM=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			01Pb3Vwiai55HrWXvHVKJ9RVmTA=
-			</data>
 			<key>hash2</key>
 			<data>
-			Zi6M0m291HEvwLMJwJ9MtQ7ehfFSvhH1MGfodo9qQao=
+			+pYHTmFTmuxpEO3pTnhIA3nLbrhA/q5yWOOKN4lCoyw=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gQ6gTvaqHV2mBwsoROMt0Xi/rEg=
-			</data>
 			<key>hash2</key>
 			<data>
-			L9m7BHk1ct8yHej+hvMGXv6SfBjnzhxIfzcGxBrbyt4=
+			MtnSaMLd1cLzmBqqdBAhPOrv1Nj4NaHIcx51hQ5zg9E=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			01Pb3Vwiai55HrWXvHVKJ9RVmTA=
-			</data>
 			<key>hash2</key>
 			<data>
-			Zi6M0m291HEvwLMJwJ9MtQ7ehfFSvhH1MGfodo9qQao=
+			+pYHTmFTmuxpEO3pTnhIA3nLbrhA/q5yWOOKN4lCoyw=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+yisO5kAZTbm2W5RDAwUq5NjZuY=
-			</data>
 			<key>hash2</key>
 			<data>
-			sUEG2OVy3dIw6KSmP6DckRKKzY11ECbPK12QUplxMO4=
+			uirOA7pvJaZcddwrZGynK2lYbdi9UCLxgU2C7i3lhTM=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1JTG8F2OlGUrIEbrVT0vTHJdkIk=
-			</data>
 			<key>hash2</key>
 			<data>
-			KKoiKx6ZBPndUF10Cxpgsj+n9/WbxDD41+aG5RAw9ew=
+			o2NfjJKmaximuHqBlfkyPWQdMWEdPgtd2/Pn1AJZBiM=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zg2kbU3EbfXF5MrGVs+J27in3aY=
-			</data>
 			<key>hash2</key>
 			<data>
-			Q3x6BB7cWO6gsmEi85Elrbf+3hUsUR+EoB28bJlLesI=
+			S3NoLKKZimNfzTdFzkjRv1MeuiaejTAO9uRkCGG/eeE=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qOawEhr3RErfJRZjODdX4Mf764M=
-			</data>
 			<key>hash2</key>
 			<data>
-			fxGsVVNnA/bzlcemWKmNXW2YFYNI56iRqeYGJ49/HdM=
+			OySrbxR4PpytcJp2CMj4bjZ4rF/uI88ztkZYfe24VvY=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zg2kbU3EbfXF5MrGVs+J27in3aY=
-			</data>
 			<key>hash2</key>
 			<data>
-			Q3x6BB7cWO6gsmEi85Elrbf+3hUsUR+EoB28bJlLesI=
+			S3NoLKKZimNfzTdFzkjRv1MeuiaejTAO9uRkCGG/eeE=
 			</data>
 		</dict>
 		<key>Modules/AudioEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Nfv/Zt1rLP+ZW2Nh3O/jRWe8cQg=
-			</data>
 			<key>hash2</key>
 			<data>
-			X5r+ECTOZqp4PvW16WSSJ8NzyKfk1saShijCot6CIHQ=
+			eH/oJLsOMHDobWR4++ifGTB3GhAp5NV3QM4BK4bv+90=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6snMNmtMaHFj8W+l3oCPyljP5YM=
-			</data>
 			<key>hash2</key>
 			<data>
-			DhuhDbAw7rHsQL+ctTPTkNRY+UXKpZZvDgCisDdJoA8=
+			Prp0eeLoPJWfEAYzy4/KfZHNuTh1PlqEAqyNA/v1gns=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IQJwwLc4zz6zMkCSYu1eMIo9bhI3pPfFi46Ujm2aunE=
 			</data>
 		</dict>
 	</dict>

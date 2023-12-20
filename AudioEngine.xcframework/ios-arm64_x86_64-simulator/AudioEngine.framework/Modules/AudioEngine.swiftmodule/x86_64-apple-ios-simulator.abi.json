@@ -2197,263 +2197,942 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 16,
+      "value": "\"playlist_token\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 9,
+      "value": "\"expires\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 10,
+      "value": "\"playlist\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 1793,
+      "length": 24,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 11,
       "value": "\"AudioEngine.FAEPlaylist\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 3084,
+      "length": 13,
+      "value": "\"part_number\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
+      "length": 16,
+      "value": "\"chapter_number\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 3304,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
+      "kind": "StringLiteral",
+      "offset": 3487,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Models\/FAEPlaylist.swift",
       "kind": "StringLiteral",
       "offset": 2278,
       "length": 15,
       "value": "\"AudioEngine.FAEPlaylistItem\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1433,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1559,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
       "kind": "Array",
       "offset": 1778,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 29,
       "value": "\"io.audioengine.sdk.progress\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 3839,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 70,
+      "value": "\"FAEProgress \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 3979,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 4000,
+      "length": 8,
+      "value": "\" children: \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
+      "kind": "StringLiteral",
+      "offset": 4028,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/Progress\/FAEProgress.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 11,
       "value": "\"AudioEngine.FAEProgress\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 29,
       "value": "\"io.audioengine.sdk.metadata\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
       "kind": "StringLiteral",
       "offset": 349,
       "length": 29,
       "value": "\"io.audioengine.sdk.playlist\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
       "kind": "Array",
       "offset": 475,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
       "kind": "Array",
       "offset": 573,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 66,
+      "value": "\"Calling \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 8,
+      "value": "\" metadata callbacks for \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1757,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 1967,
+      "length": 41,
+      "value": "\"Metadata callback not of expeceted type\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3570,
+      "length": 80,
+      "value": "\"Calling \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3597,
+      "length": 8,
+      "value": "\" playlist callbacks for \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 3883,
+      "length": 41,
+      "value": "\"Playlist callback not of expeceted type\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 27,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4311,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Download\/TaskSynchronizer.swift",
+      "kind": "StringLiteral",
+      "offset": 4324,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 34,
       "value": "\"io.audioengine.migration.version\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1115,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 16,
+      "value": "\"fwae_analytics\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1236,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 6,
+      "value": "\"FWAE\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1339,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 1505,
+      "length": 12,
+      "value": "\"FAE.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "Array",
+      "offset": 1969,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 6,
+      "value": "\".mp3\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2592,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 2955,
+      "length": 14,
+      "value": "\"ListenEvents\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "Array",
+      "offset": 3288,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 3453,
+      "length": 22,
+      "value": "\"AEPersistence.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 3737,
+      "length": 15,
+      "value": "\"AEPersistence\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 3760,
+      "length": 19,
+      "value": "\"PersistenceEngine\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemMigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3795,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 20,
       "value": "\"AudioEngineSupport\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 7,
       "value": "\"Audio\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 20,
       "value": "\"SDKMetadata.sqlite\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 26,
       "value": "\"PersistenceEngine.sqlite\""
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 669,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 943,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2089,
+      "length": 48,
+      "value": "\"Exception creating support directory: \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2492,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2815,
+      "length": 65,
+      "value": "\"Exception creating \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2849,
+      "length": 9,
+      "value": "\" audiobook directory: \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3211,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3535,
+      "length": 48,
+      "value": "\"Exception creating support directory: \""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3582,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3735,
+      "length": 92,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3762,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3788,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 5,
+      "value": "\"_senc.mp3\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4055,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4122,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4204,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4304,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Filesystem\/FilesystemHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 2,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 2,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 2,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/aglenn\/git\/ae\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 2,
       "value": "40"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 70,
+      "value": "\"https:\/\/api.findawayworld.com\/v4\/audiobooks\/\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "\"\/playlists\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 964,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 12,
+      "value": "\"license_id\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
+      "length": 23,
+      "value": "\"encryption_chunk_size\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1138,
+      "length": 5,
+      "value": "20480"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 12,
+      "value": "\"license_id\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 14,
+      "value": "\"X-Request-Id\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 13,
+      "value": "\"Session-Key\""
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1940,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2092,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2228,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2360,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2542,
+      "length": 3,
+      "value": "404"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2674,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2797,
+      "length": 3,
+      "value": "502"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2935,
+      "length": 3,
+      "value": "503"
+    },
+    {
+      "filePath": "\/Users\/aglenn\/git\/OswaldCobblepot\/AudioEngine\/AudioEngine\/Networking\/FAEPlaylistAPIFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3073,
+      "length": 3,
+      "value": "504"
     }
   ]
 }
